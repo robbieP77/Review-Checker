@@ -4,9 +4,9 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-HTML_FILE = Path(__file__).with_name("Review Checker 3.6.5.html")
+HTML_FILE = Path(__file__).with_name("D-B-Review-Checker.html")
 
-st.set_page_config(page_title="Review Checker 3.6.5", layout="wide")
+st.set_page_config(page_title="D-B-Review-Checker", layout="wide")
 
 if not HTML_FILE.is_file():
     st.error(f"Checker HTML file not found: {HTML_FILE.name}")
