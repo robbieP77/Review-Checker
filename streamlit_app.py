@@ -13,4 +13,4 @@ if not HTML_FILE.is_file():
     st.stop()
 
 html = HTML_FILE.read_text(encoding="utf-8")
-components.html(html, height=1200, scrolling=True)
+components.html(html, height=1000, scrolling=True)
